@@ -22,6 +22,8 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
+### 2. Project Structure
+
 ├── BTL/
 │   ├── Source/                  # Source code for training and evaluation
 │   └── Report/                  # Final report (in Vietnamese)
