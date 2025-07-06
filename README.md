@@ -10,13 +10,4 @@ source .venv/bin/activate
 .venv\Scripts\activate
 
 # Bước 3: Cài đặt thư viện cần thiết từ requirements.txt
-pip install -r requirements.txt
-
-# (Hoặc cài từng thư viện nếu chưa có requirements.txt)
-# pip install numpy pandas ...
-
-# Bước 4 (tuỳ chọn): Lưu lại các thư viện vào requirements.txt
-pip freeze > requirements.txt
-
-# Bước 5: Khi dùng xong, thoát môi trường ảo
-deactivate
+pip install -r requirements.txt 
